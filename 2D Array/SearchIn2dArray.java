@@ -29,5 +29,6 @@ public class SearchIn2dArray {
         if(!found){
             System.out.println("not found");
         }
+        sc.close();
     }
 }

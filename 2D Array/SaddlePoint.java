@@ -11,6 +11,7 @@ public class SaddlePoint {
                 arr[i][j] = sc.nextInt();
             }
         }
+        sc.close();
         for(int i = 0; i < arr.length; i++){                
             int saddlec = 0;                                //saddle column
             for(int j = 1; j < arr[0].length; j++){         //finding smallest element in row
@@ -31,6 +32,6 @@ public class SaddlePoint {
             }
         }
         System.out.println("Inavlid input");
-        sc.close();
+        
     }
 }
